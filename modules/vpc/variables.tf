@@ -9,3 +9,8 @@ variable "project_name" {
   type        = string
   default     = "ai-first-showroom"
 }
+variable "public_subnet_cidr" {
+  description = "IP address range of the public subnet"
+  type        = string
+  default     = "10.0.1.0/24"
+}
