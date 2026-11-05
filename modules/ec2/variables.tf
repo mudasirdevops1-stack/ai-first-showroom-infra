@@ -12,7 +12,7 @@ variable "instance_name" {
 variable "instance_type" {
   description = "Size of the server"
   type        = string
-  default     = "t3.medium"
+  default     = "c7i-flex.large"
 }
 
 variable "subnet_id" {
